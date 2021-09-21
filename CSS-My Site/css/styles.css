@@ -1,0 +1,43 @@
+div{
+    background-color: ;
+    
+
+
+}
+
+body
+{ 
+margin: 0;
+}
+
+h1{
+    margin-top:0 ;
+}
+
+.first-box{
+    
+    background-color: #e4f9f5;
+    height: 200px;
+    width: 200px;
+    border-left: ;
+    border-color: black;
+    border:solid 10px;
+    padding: 20px;
+ 
+
+}
+.second-box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border:solid 20px;
+    margin-left: 260px;
+
+}
+.third-box{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+    border: solid 10px;
+    margin-left: 500px;
+}
