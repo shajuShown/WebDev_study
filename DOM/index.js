@@ -1,1 +1,1 @@
-alert("Hellofff");
+document.query
