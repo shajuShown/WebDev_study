@@ -12,7 +12,7 @@ img1.setAttribute("src", randomImageSource1);
 
 var randomNumber2 = Math.floor(Math.random()*6)+1;
 
-var randomDiceImage2="dice" + randomNumber2 + ".png"
+var randomDiceImage2="dice" + randomNumber2 + ".png" 
 
 var randomImageSource2 ="images/" + randomDiceImage2;
 
