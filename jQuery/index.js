@@ -1,1 +1,4 @@
-jQuery("h1").css("color", "red")
+$(document).keypress(function(event){
+    $("h1").text(event.key).css("color", "purple")
+
+})
