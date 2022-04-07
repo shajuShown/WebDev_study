@@ -1,3 +1,4 @@
+//jqeury challenge
 var buttonColours = ["red", "blue" , "green" , "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
