@@ -5,7 +5,7 @@ const app=express();
 
 
 app.get("/", function(req,res){
-    res.send("Working");
+    res.sendFile(__dirname+ "/index.html")
 })
 
 
