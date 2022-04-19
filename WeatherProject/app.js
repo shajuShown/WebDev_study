@@ -15,12 +15,24 @@ app.get("/",function(req, res){
        response.on("data",function(data){
          const weatherData=JSON.parse(data);
          console.log(weatherData);
-         const temp =weatherData.weather[0].description;
+         const temp =weatherData.main.temp;
+         const city =weatherData.name;
+         const desc=weatherData.weather[0].description;
+         const icon=weatherData.weather[0].icon;
+         const imageUrl= "http://openweathermap.org/img/wn/"+icon+"@2x.png"
          console.log(temp);
-       })
+         console.log(city);
+         console.log(desc);
+         res.write("<p></p> The weather sescription is "+desc+"</p>");
+         res.write("<h1> The temperature in "+city+ " is "+temp+" Degree celcius </h1>")
+         res.write("<img src="+imageUrl+">");
+         res.send();
+        
+    })
+       
 
    })
-    res.send("Server is running");
+   
 })
 
 
